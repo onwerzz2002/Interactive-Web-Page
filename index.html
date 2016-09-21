@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Assignment2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="changeColor_field.css" type="text/css">
+        <link rel="stylesheet" href="createTable_field.css" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Special Elite" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="changeColor">
+            <h1>Input RGB Value.</h1>
+            <span>Red</span><input id="Red" class="colorInput" type="text" size="5"><br><br>
+            <span>Green</span><input id="Green" class="colorInput" type="text" size="5"><br><br>
+            <span>Blue</span><input id="Blue" class="colorInput" type="text" size="5"><br>
+            <button id="colorButton">Change background color</button>
+        </div>
+        <div class="static">This part keeps static. No jQuery implemented.</div>
+        
+        <div id="createTable">
+            <span id="row_question">How many rows would you like?</span>
+            <select id="drop_down_menu_row">
+                
+            </select>
+            
+            <span id="column_question">How many columns would you like?</span>
+            <select id="drop_down_menu_column">
+                
+            </select>
+            <button id="to_create_table">Create</button>
+            
+            <div id="empty_form_for_filling">
+                  
+                
+            </div>
+            
+            <!--<div id="final_form">
+            </div>
+            
+            <div id="create_button">
+            </div>-->
+            
+           
+        </div>
+        
+        <script src="script_createTable.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

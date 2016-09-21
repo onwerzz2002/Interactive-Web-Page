@@ -1,0 +1,78 @@
+#createTable {
+    margin-top: 10px;
+    position: absolute;
+    width: 500px;
+    height: auto; 
+}
+
+
+#row_question {
+    position: absolute;
+    top: 10px;
+}
+#drop_down_menu_row {
+    position: absolute;
+    top:10px;
+    left: 250px;
+}
+
+#column_question {
+    position: absolute;
+    top: 40px;
+}
+#drop_down_menu_column {
+    position: absolute;
+    top:40px;
+    left: 250px;
+}
+
+#to_create_table {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+
+#empty_form_for_filling {
+    position: absolute;
+    width:2000px;
+    top: 100px;
+    left: 10px;
+    font-size: 16px;
+}
+
+#create_table {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: red;
+}
+
+
+#final_form1 {
+    //position: absolute;
+    margin-top:10px;
+    left: 10px;
+    
+}
+
+#final_form1 table {
+    border: 2px solid red;  
+}
+#final_form1 table td{
+    width:98px;
+    height: 1em;
+    padding:1px;
+    border: 2px solid red;
+    
+}
+

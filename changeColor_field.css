@@ -1,0 +1,36 @@
+
+.colorInput {
+    position: absolute;
+    right: 1780px;
+    border-bottom: 1px solid grey;
+}
+
+span {
+    position: absolute;
+    left: 10px;
+}
+
+#colorButton {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#changeColor {
+   padding-bottom: 20px;
+   border-bottom: 1px solid grey; 
+   opacity: 0.5;
+}
+
+.static {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 1.6em;
+    font-family: Special Elite, sans-serif;
+    color: red;
+    
+}
